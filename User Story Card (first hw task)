@@ -1,4 +1,12 @@
-- Main logic.
-As  a adminstrator of the game i need a button which give me an opportunity to delete a person from the game as a punisment after breking him rules of the game or harm other participant. 
-The Button shouldn't be visible for any others participant.
-After click on the button theprogram has to ask for acceptence as a second check.
+Acceptance criteria:
+• The Administrator can remove any participant from the room until the randomization starts 
+• Removed participant lose access to the room and their data is deleted
+• The system updates the number of participant in the room accordingly
+
+As an administrator of the game, I want to have a button which delete a player from the game as a punishment after breaking the rules of the game or harm other participants. 
+ • The Button shouldn't be visible to any other participants.
+ • After I click on the button, the program has to confirm that it wasn't an accidental click.
+ • Participant who has been removed from the game has have a message on their screen with a message from administrator (me) with a reason. 
+ • Player's data has to be deleted after the player was removed.
+
+As an Admin i want to have an access to restore Participant if he promise that he would never break the rules again. 
